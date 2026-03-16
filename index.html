@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Home page</title>
+</head>
+
+<body>
+    <section class="top-header">
+        <div class="container top-head">
+            <div class="row">
+                <div class="col-md-6 mt-3 d-flex justify-content-start align-items-center">
+                    <i class="fa-solid fa-location-dot location-icon"></i><span>
+                        123 Street, New York, USA
+                    </span>
+                    <div class="d-inline-block ms-4">
+                        <i class="fa-solid fa-clock location-icon"></i>
+                        <span>Mon - Fri : 09.00 AM - 09.00 PM</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-3 d-flex justify-content-end align-items-center top-right">
+                    <i class="fa-solid fa-phone location-icon"></i>
+                    <span>
+                        +012 345 6789
+                    </span>
+                    <div class="d-inline-block ms-4">
+                        <i class="fa-brands fa-facebook location-icon-1"></i>
+                        <i class="fa-brands fa-twitter location-icon-1"></i>
+                        <i class="fa-brands fa-linkedin location-icon-1"></i>
+                        <i class="fa-brands fa-instagram location-icon-1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar-dark mt-2">
+        <div class="container">
+            <a class="navbar-brand text-danger" href="index.html"><i class="fa-solid fa-car"></i>CarServ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav gap-lg-4 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="menu.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="about.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="book.html">PAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="book.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-end text-light justify-content-end">
+                <button class="btn bg-danger text-light">
+                    GET A QUOTE
+                </button>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-carousel">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+            <div class="carousel-inner">
+
+                <!-- SLIDE 1 -->
+                <div class="carousel-item active hero-slide">
+                    <div class="container">
+                        <div class="row align-items-center hero-content">
+
+                            <div class="col-lg-6 text-white">
+                                <span class="small-title">// CAR SERVICING //</span>
+
+                                <h1 class="hero-title">
+                                    Qualified Car Repair <br> Service Center
+                                </h1>
+
+                                <a href="#" class="btn btn-danger hero-btn">
+                                    LEARN MORE →
+                                </a>
+                            </div>
+
+                            <div class="col-lg-6 text-end">
+                                <img src="assets/images/carousel-1.png" class="hero-car img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- SLIDE 2 -->
+                <div class="carousel-item hero-slide">
+                    <div class="container">
+                        <div class="row align-items-center hero-content">
+
+                            <div class="col-lg-6 text-white">
+                                <span class="small-title">// CAR SERVICING //</span>
+
+                                <h1 class="hero-title">
+                                    Qualified Car Wash <br> Service Center
+                                </h1>
+
+                                <a href="#" class="btn btn-danger hero-btn">
+                                    LEARN MORE →
+                                </a>
+                            </div>
+
+                            <div class="col-lg-6 text-end">
+                                <img src="assets/images/carousel-2.png" class="hero-car img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PREVIOUS BUTTON -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <!-- NEXT BUTTON -->
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-md-4">
+                    <div class="cert-info d-flex gap-4 align-items-start p-4 shadow rounded">
+
+                        <!-- Icon -->
+                        <i class="fa-solid fa-certificate text-danger fs-2"></i>
+
+                        <!-- Text -->
+                        <div>
+                            <h5 class="fw-bold mb-2">Quality Servicing</h5>
+                            <p class="text-muted mb-2">
+                                Diam dolor diam ipsum sit amet diam et eos erat ipsum
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cert-info d-flex gap-4 align-items-start p-4 shadow rounded">
+
+                        <!-- Icon -->
+                        <i class="fa-solid fa-user-gear text-danger fs-2"></i>
+
+                        <!-- Text -->
+                        <div>
+                            <h5 class="fw-bold mb-2">Expert Workers</h5>
+                            <p class="text-muted mb-2">
+                                Diam dolor diam ipsum sit amet diam et eos erat ipsum
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cert-info d-flex gap-4 align-items-start p-4 shadow rounded">
+
+                        <!-- Icon -->
+                        <i class="fa-solid fa-screwdriver-wrench text-danger fs-2"></i>
+
+                        <!-- Text -->
+                        <div>
+                            <h5 class="fw-bold mb-2">Quality Servicing</h5>
+                            <p class="text-muted mb-2">
+                                Diam dolor diam ipsum sit amet diam et eos erat ipsum
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 position-relative">
+
+                    <img src="assets/images/about.jpg" class="img-fluid" alt="about-img">
+
+                    <!-- Overlay Box -->
+                    <div class=" position-absolute top-0 end-0 p-4 shadow-lg about-badge">
+
+                        <p class="text-white fw-bold fs-3 mb-0">
+                            15 Years <br> Experience
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <p class="text-danger fw-bold fs-5 mb-0">
+                        // ABOUT US //
+                    </p>
+                    <h1 class="info-h1">
+                        <span class="text-danger">CarServ</span> Is The Best Place For Your Auto Care
+                    </h1>
+                    <div>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                            Clita
+                            erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        </p>
+                        <div class="d-flex gap-4 mb-4 align-items-start about-info ">
+                            <div class="feature-number shadow p-2 fw-bold">
+                                <h4>01</h4>
+                            </div>
+
+                            <div>
+                                <h5 class="fw-bold">Professional & Expert</h5>
+                                <p class="text-muted mb-0">
+                                    Diam dolor diam ipsum sit amet diam et eos
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 2 -->
+                        <div class="d-flex gap-4 mb-4 align-items-start about-info">
+                            <div class="feature-number shadow p-2">
+                                <h4>02</h4>
+                            </div>
+
+                            <div>
+                                <h5 class="fw-bold">Quality Servicing Center</h5>
+                                <p class="text-muted mb-0">
+                                    Diam dolor diam ipsum sit amet diam et eos
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="d-flex gap-4 align-items-start about-info">
+                            <div class="feature-number shadow p-2">
+                                <h4>03</h4>
+                            </div>
+
+                            <div>
+                                <h5 class="fw-bold">Awards Winning Workers</h5>
+                                <p class="text-muted mb-0">
+                                    Diam dolor diam ipsum sit amet diam et eos
+                                </p>
+                            </div>
+                        </div>
+                        <button class="btn bg-danger text-light mt-3">
+                            READ MORE
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <section class="services mt-5">
+        <p class="text-danger fw-bold text-center">//OUR SERVICES//</p>
+        <h5 class="fw-bold text-center fs-3">Explore Our Services</h5>
+        <div class="container">
+            <div class="row align-items-stretch">
+                <!-- Cards Column -->
+                <div class="col-md-4 d-flex flex-column gap-3 py-3">
+                    <div class="bg-danger d-flex gap-3 align-items-center shadow rounded p-3 flex-grow-1">
+                        <i class="fa-solid fa-car text-light fs-4"></i>
+                        <p class="fw-bold text-light mb-0 fs-5">Diagnostic Test</p>
+                    </div>
+                    <div class="bg-secondary d-flex gap-3 align-items-center shadow rounded p-3 flex-grow-1">
+                        <i class="fa-solid fa-car text-light fs-4"></i>
+                        <p class="fw-bold text-light mb-0 fs-5">Engine Servicing</p>
+                    </div>
+                    <div class="bg-secondary d-flex gap-3 align-items-center shadow rounded p-3 flex-grow-1">
+                        <i class="fa fa-cog text-light fs-4"></i>
+                        <p class="fw-bold text-light mb-0 fs-5">Tires Replacement</p>
+                    </div>
+                    <div class="bg-secondary d-flex gap-3 align-items-center shadow rounded p-3 flex-grow-1">
+                        <i class="fa fa-oil-can text-light fs-4"></i>
+                        <p class="fw-bold text-light mb-0 fs-5">Oil Changing</p>
+                    </div>
+                </div>
+                <!-- Image Column -->
+                <div class="col-md-4 mt-4 mt-md-0 py-3 service-img">
+                    <div class="position-relative h-100">
+                        <img src="assets/images/service-1.jpg" alt="Service"
+                            class="img-service rounded shadow position-absolute top-0 start-0 w-100 h-100">
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4 mt-md-0 py-3 service-img">
+                    <div class="h-100">
+                        <h3>15 Years Of Experience In Auto Servicing</h3>
+                        <p class="text-black-50">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
+                            amet diam et eos.
+                            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        </p>
+                        <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                        <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                        <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                        <button class="btn bg-danger text-light">
+                            READ MORE <i class="fa fa-arrow-right ms-3"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="book mt-5 position-relative">
+        <div class="container position-relative" style="z-index: 1;">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <h1 class="text-white">Certified and Award Winning Car Repair Service Provider</h1>
+                    <p class="text-white">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at
+                        sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore
+                        eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed
+                        et. Takimata takimata sanctus sed.</p>
+                </div>
+                
+                <div class="col-md-6 bg-danger">
+                    <h1 class="h1-book text-white fw-bold mt-5 text-center">Book For A Service</h1>
+                       <form>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <input type="text" class="form-control" id="exampleInputName"
+                                    aria-describedby="emailHelp" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <select name="select" id="exampleInputSelection" class="form-control">
+                                    <option value="" selected disabled>Select A Service</option>
+                                    <option value="1">Service 1</option>
+                                    <option value="2">Service 2</option>
+                                    <option value="3">Service 3</option>
+                                </select>
+                                
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <input type="date" class="form-control" id="exampleInputService"
+                                    aria-describedby="emailHelp" placeholder="Service Date">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="message" rows="8" placeholder="Special Request"
+                                id=""></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary col-md-12 col-12">BOOK NOW</button>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
