@@ -174,3 +174,14 @@ h5 {
 .h1-book{
     font-family: "Barlow", sans-serif;
 }
+.profile{
+    position: relative;
+    text-align: center;
+}
+.profile img{
+ margin-top: 5%;
+    border-radius: 50%;
+    height:auto;
+    border: 5px;
+    object-fit: cover;   
+}
